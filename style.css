@@ -10,8 +10,9 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -26,6 +27,41 @@ section {
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orangered, tomato);
-    padding: 10px 10px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.aj {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+}
+
+.About {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+}
+
+.Recipie {
+    box-shadow: 10px 10px 30px gray;
+    width: 33%;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+.Recipie img {
+    width: 200px;
+    height: 200px;
+    margin-right: -10px;
+}
+
+.pk {
+    background-color: black;
+    color: orange;
+}
+
+.iq {
+    color: papayawhip;
 }
